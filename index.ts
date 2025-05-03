@@ -175,6 +175,8 @@ export class TranslateICUCustomParser {
 	}
 	
 	interpolate(expr: string | Function, params?: any): string {
+		if (expr === undefined)
+			return expr as string;
 		return typeof expr === 'function'
 			? expr(params)
 			: evaluateParsedString(
