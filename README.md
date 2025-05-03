@@ -100,3 +100,10 @@ will be called with parameters:
 1. the value of the `name` property of the object passed to the `ngx-translate` function/directive
 2. `[' J ', ' K ', ' L ', ' M ', '']`
 3. `['Johnny', 'Kenny', 'Lenny', 'Maurice']`
+
+### Compile error
+To remove compile error, edit `./node_modules/@types/node/index.d.ts` file and remove the third slash from
+`// <reference lib="es2017" />`
+
+Node version: 12
+npm version: 6
