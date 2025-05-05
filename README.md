@@ -1,7 +1,7 @@
 # Template parser for `ngx-translate`
 
 ## Installation
-Just `yarn install ngx-translate-parser-plural-select` and use when
+Just `npm install @silverspringnetworks/ngx-translate-parser-plural-select` and use when
 adding `ngx-translate` to the `imports` section in your `@NgModule`:
 
 ```typescript
